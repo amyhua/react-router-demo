@@ -4,14 +4,14 @@
   "description": "Boilerplate for creating a sample react-router application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base ."
+    "start": "webpack-dev-server --watch --colors --inline --content-base ."
   },
   "author": "Jason Schapiro",
   "license": "ISC",
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
+    "react-router": "^2.8.1"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",

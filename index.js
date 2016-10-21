@@ -1,4 +1,7 @@
-import React from 'react'
-import { render } from 'react-dom'
+import { Router, Route, Link } from 'react-router';
+import React from 'react';
+import { render } from 'react-dom';
 
-render((<h1>Hello, Router</h1>), document.getElementById('app'))
+const Hello = () => <h1>Hello There!!</h1>;
+
+render((<Hello />), document.getElementById('app'))
